@@ -33,7 +33,7 @@
 1. The volume of unstructured data (log lines, images, binary files) is growing dramatically. PySpark is an excellent framework for analyzing this type of data through RDDs.
 2. In this task, analyze the frequency of words in a text document using PySpark. The text document provided is `Complete_Shakespeare.txt`.
 
-####Steps:
+Steps:
 - Create a base RDD from the `Complete_Shakespeare.txt` file.
 - Use RDD transformation to create a long list of words from each element of the base RDD.
 - Count the total words in `splitRDD`.
